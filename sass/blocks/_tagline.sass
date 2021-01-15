@@ -1,6 +1,6 @@
 .tagline
     background-color: $green
-    padding: 80px 0px 80px 0px
+    padding: 110px 0px 80px 0px
     &__logo
         font-family: GT Super Display
         font-style: normal
@@ -9,18 +9,31 @@
         line-height: 110px
         letter-spacing: 2px
         color: $white
-        &--pink
+        &-pink
             color: #F09C96
     &__container
         display: flex
         justify-content: space-between
+        align-items: start
         background: url('../img/tagline/pink-line.png')
         background-repeat: no-repeat
-        background-position: top right
+        background-position: top -19px right 10px
+    &__img
+        margin-right: 8px
+    &__button
+        margin-top: 43px
+    &__free-days
+        margin-top: 29px
+        font-family: Roboto
+        font-style: normal
+        font-weight: normal
+        font-size: 12px
+        line-height: 13px
+        color: $white
 .pic
     &-top
         position: relative
-        margin-left: -230px
+        margin-left: -235px
         margin-bottom: -10px
     &-girl
         position: absolute
